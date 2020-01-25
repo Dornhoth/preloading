@@ -1,4 +1,4 @@
 <h1>Angular Preloading</h1>
 <router-outlet></router-outlet>
 <button class="admin-button" routerLink="/admin">Admin</button>
-<button class="login-button">Log in as Admin</button>
+<button (click)="preloadAdminModule()" class="login-button">Log in as Admin</button>
