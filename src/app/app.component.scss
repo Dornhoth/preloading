@@ -1,7 +1,5 @@
 button {
   position: absolute;
-  bottom: 5px;
-  left: 5px;
   background-color: seagreen;
   color: white;
   padding: 5px;
@@ -9,6 +7,16 @@ button {
   border: 1px seagreen solid;
   font-size: 12pt;
   cursor: pointer;
+}
+
+.admin-button {
+  bottom: 5px;
+  left: 5px;
+}
+
+.login-button {
+  bottom: 5px;
+  right: 5px;
 }
 
 h1 {
